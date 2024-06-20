@@ -1,12 +1,13 @@
 class Solution:
     def arraySign(self, nums: List[int]) -> int:
-        res = 1
+        countNegative = 0
         for i in nums:
-            res*=i
+            if i == 0:
+                return 0
+            elif i < 0:
+                countNegative += 1
         
-        if res > 0:
+        if countNegative % 2 == 0:
             return 1
-        elif res < 0:
-            return -1
         else:
-            return 0
+            return -1
