@@ -1,3 +1,4 @@
+# 회고: 시간 복잡도 O(N), 공간 복잡도 O(1) 간단한 문제
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:
         res = 0
