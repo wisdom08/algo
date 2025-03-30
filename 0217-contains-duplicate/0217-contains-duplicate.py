@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/contains-duplicate/
+# 회고: if문 제거 가능
 class Solution(object):
     def containsDuplicate(self, nums):
         set_nums = set(nums)
@@ -5,5 +7,3 @@ class Solution(object):
             return False
         else:
             return True
-
-        
