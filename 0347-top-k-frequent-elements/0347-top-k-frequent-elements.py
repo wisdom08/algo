@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/top-k-frequent-elements/
+# 회고: 나중에 heap을 써서 개선할 수 있을 것 같다.
 class Solution(object):
     def topKFrequent(self, nums, k):
         frequency = {}
