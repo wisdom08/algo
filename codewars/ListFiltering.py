@@ -4,6 +4,6 @@
 def filter_list(l):
     res = []
     for x in l:
-        if type(x) == int:
+        if isinstance(x, int):
             res.append(x)
     return res
