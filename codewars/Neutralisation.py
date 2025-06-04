@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/65128732b5aff40032a3d8f0
+# 회고: zip, iterable
 def neutralise(s1, s2):
     result = ""
 
